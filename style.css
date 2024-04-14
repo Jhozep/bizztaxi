@@ -1,0 +1,120 @@
+* {
+    font-family: "AKONY", sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: AKONY;
+    src: local('ACONY'), url('AKONY.woff') format('woff')
+}
+
+.nav-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: x-large;
+}
+
+.section-1 {
+ display: flex;
+ justify-content: center;
+} 
+
+.background {
+    background-color: black;
+}
+
+.section-3 {
+    text-align: end;
+    padding-top: 60px;
+}
+
+.text-4 {
+    display: flex;
+    justify-content: end;
+}
+
+.section-5 {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(39, 35, 35);
+}
+
+.section-5-text {
+    display: flex;
+    justify-content: end;
+    margin-top: auto;
+}
+
+.section-2-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec2-img1 p {
+    text-align: center;
+}
+
+.sec2-img2 p {
+    text-align: center;
+}
+
+.sec2-img3 p {
+    text-align: center;
+}
+
+.sec2-img4 p {
+    text-align: center;
+}
+
+.section-4-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec4-img1 p {
+    text-align: center;
+}
+
+.sec4-img2 p {
+    text-align: center;
+}
+
+.sec4-img3 p {
+    text-align: center;
+}
+
+.sec4-img4 p {
+    text-align: center;
+}
+
+.container {
+    width: 10208px;
+    margin: 0 auto;
+}
+
+.section-2 {
+    margin-top: 112px;
+}
+
+.section-2 p {
+    padding-top: 15px;
+}
+
+.section-4 p {
+    padding-top: 15px;
+}
+
+.section-5-content p {
+    margin: 0;
+}
+
+.section-5-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
