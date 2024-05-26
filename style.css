@@ -23,6 +23,10 @@
  justify-content: center;
 } 
 
+.section-1 img {
+    width: 90%;
+}
+
 .background {
     background-color: black;
 }
@@ -117,4 +121,35 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.modal-header {
+    background-color: black;
+}
+
+.modal-body {
+    background-color: black;
+}
+
+.button-1 {
+    margin-bottom: 5px;
+}
+
+.modal-content {
+    box-shadow: 0 0 10px gray;
+}
+
+
+@media (max-width: 1440px) {
+.section-2-img, .section-4-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+}
+
+@media (max-width: 600px) {
+.section-4-img, .section-2-img {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 }
